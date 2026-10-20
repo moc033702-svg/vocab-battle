@@ -1,0 +1,37 @@
+# ---- 编译产物 ----
+build/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+*.lib
+
+# ---- 运行时数据（会变，且含玩家昵称）----
+网页/data/leaderboard.csv
+网页/data/history.csv
+*.log
+logs/
+
+# ---- 备份、旧预览、临时文件 ----
+.backup-*/
+网页/.backup-*/
+网页/design/
+网页/tests/screenshots/
+*.tmp
+~$*
+
+# ---- 编辑器与系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
+__pycache__/
+
+# ---- 已过期的历史文档（本地保留，不入库；见 网页/交接书.md 的文档地图）----
+网页/美化交接书.md
+网页/部署方案.md
+网页/部署-简洁版.md
+网页/给opus的优化提示词.md

@@ -1,0 +1,13 @@
+{
+  "name": "vocab-battle-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "英语词汇擂台网页版：Node 网关 + 静态前端（无框架、无构建）",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test tests/protocol.test.js tests/integration.test.js tests/rules.test.js tests/patches.test.js tests/bugs.test.js"
+  }
+}
